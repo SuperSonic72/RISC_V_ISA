@@ -1,0 +1,12 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2022.1.226 
+Date: Thu Dec 01 14:38:48 2022
+
+Copyright (C) 2013 - 2022 Efinix Inc. All rights reserved.
+ 
+Family: Trion 
+Device: T8F81
+Top-level Entity Name: New_RiscV
+Elapsed time for routing: 0 hours 0 minutes 18 seconds
+Elapsed time for entire flow: 0 hours 0 minutes 44 seconds

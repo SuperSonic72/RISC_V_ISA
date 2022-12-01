@@ -1,0 +1,132 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2022.1.226 
+Date: Thu Dec 01 14:38:29 2022
+
+Copyright (C) 2013 - 2022 Efinix Inc. All rights reserved.
+ 
+Family: Trion 
+Device: T8F81
+Top-level Entity Name: New_RiscV
+Elapsed time for packing: 0 hours 0 minutes 0 seconds
+
+---------- Resource Summary (begin) ----------
+Inputs: 2 / 96 (2.08%)
+Outputs: 64 / 113 (56.64%)
+Clocks: 1 / 16 (6.25%)
+Logic Elements: 4441 / 7384 (60.14%)
+	LE: LUTs/Adders: 4164 / 7384 (56.39%)
+	LE: Registers: 1385 / 5280 (26.23%)
+Memory Blocks: 22 / 24 (91.67%)
+Multipliers: 0 / 8 (0.00%)
+---------- Resource Summary (end) ----------
+
+
+---------- Memory Block Information (begin) ----------
+
++-----------------+------+------------+-------------+--------------+------------+
+|      NAME       | MODE | READ_WIDTH | WRITE_WIDTH |  WRITE_MODE  | OUTPUT_REG |
++-----------------+------+------------+-------------+--------------+------------+
+| USER_MEM__D$12  | SDP  |     4      |      4      |  READ_FIRST  |   false    |
+| PROG_MEM__D$b12 | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|  USER_MEM__D$2  | SDP  |     4      |      4      |  READ_FIRST  |   false    |
+| PROG_MEM__D$o1  | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+| USER_MEM__D$c12 | SDP  |     5      |      5      |  READ_FIRST  |   false    |
+| USER_MEM__D$d12 | SDP  |     5      |      5      |  READ_FIRST  |   false    |
+| USER_MEM__D$e12 | SDP  |     5      |      5      |  READ_FIRST  |   false    |
+| USER_MEM__D$f1  | SDP  |     5      |      5      |  READ_FIRST  |   false    |
+| PROG_MEM__D$n12 | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+| USER_MEM__D$b12 | SDP  |     4      |      4      |  READ_FIRST  |   false    |
+| PROG_MEM__D$m12 | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+| PROG_MEM__D$l12 | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+| PROG_MEM__D$k12 | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+| PROG_MEM__D$j12 | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+| PROG_MEM__D$i12 | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+| PROG_MEM__D$h12 | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+| PROG_MEM__D$g12 | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+| PROG_MEM__D$f12 | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+| PROG_MEM__D$e12 | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+| PROG_MEM__D$d12 | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+| PROG_MEM__D$c12 | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+| PROG_MEM__D$12  | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
++-----------------+------+------------+-------------+--------------+------------+
+
+----------- Memory Block Information (end) ----------
+
+
+---------- IO Placement Summary (begin) ----------
+
++----------------------+--------------+
+| Unassigned Core Pins | Input/Output |
++----------------------+--------------+
+|         RST          |    Input     |
+|         CLK          |    Input     |
+|    CONTR_OUT[31]     |    Output    |
+|    CONTR_OUT[30]     |    Output    |
+|    CONTR_OUT[29]     |    Output    |
+|    CONTR_OUT[28]     |    Output    |
+|    CONTR_OUT[27]     |    Output    |
+|    CONTR_OUT[26]     |    Output    |
+|    CONTR_OUT[25]     |    Output    |
+|    CONTR_OUT[24]     |    Output    |
+|    CONTR_OUT[23]     |    Output    |
+|    CONTR_OUT[22]     |    Output    |
+|    CONTR_OUT[21]     |    Output    |
+|    CONTR_OUT[20]     |    Output    |
+|    CONTR_OUT[19]     |    Output    |
+|    CONTR_OUT[18]     |    Output    |
+|    CONTR_OUT[17]     |    Output    |
+|    CONTR_OUT[16]     |    Output    |
+|    CONTR_OUT[15]     |    Output    |
+|    CONTR_OUT[14]     |    Output    |
+|    CONTR_OUT[13]     |    Output    |
+|    CONTR_OUT[12]     |    Output    |
+|    CONTR_OUT[11]     |    Output    |
+|    CONTR_OUT[10]     |    Output    |
+|     CONTR_OUT[9]     |    Output    |
+|     CONTR_OUT[8]     |    Output    |
+|     CONTR_OUT[7]     |    Output    |
+|     CONTR_OUT[6]     |    Output    |
+|     CONTR_OUT[5]     |    Output    |
+|     CONTR_OUT[4]     |    Output    |
+|     CONTR_OUT[3]     |    Output    |
+|     CONTR_OUT[2]     |    Output    |
+|     CONTR_OUT[1]     |    Output    |
+|     CONTR_OUT[0]     |    Output    |
+|      PORT_A[31]      |    Output    |
+|      PORT_A[30]      |    Output    |
+|      PORT_A[29]      |    Output    |
+|      PORT_A[28]      |    Output    |
+|      PORT_A[27]      |    Output    |
+|      PORT_A[26]      |    Output    |
+|      PORT_A[25]      |    Output    |
+|      PORT_A[24]      |    Output    |
+|      PORT_A[23]      |    Output    |
+|      PORT_A[22]      |    Output    |
+|      PORT_A[21]      |    Output    |
+|      PORT_A[20]      |    Output    |
+|      PORT_A[19]      |    Output    |
+|      PORT_A[18]      |    Output    |
+|      PORT_A[17]      |    Output    |
+|      PORT_A[16]      |    Output    |
+|      PORT_A[15]      |    Output    |
+|      PORT_A[14]      |    Output    |
+|      PORT_A[13]      |    Output    |
+|      PORT_A[12]      |    Output    |
+|      PORT_A[11]      |    Output    |
+|      PORT_A[10]      |    Output    |
+|      PORT_A[9]       |    Output    |
+|      PORT_A[8]       |    Output    |
+|      PORT_A[7]       |    Output    |
+|      PORT_A[6]       |    Output    |
+|      PORT_A[5]       |    Output    |
+|      PORT_A[4]       |    Output    |
+|      PORT_A[3]       |    Output    |
+|      PORT_A[2]       |    Output    |
+|      PORT_A[1]       |    Output    |
+|      PORT_A[0]       |    Output    |
++----------------------+--------------+
+
+----------- IO Placement Summary (end) ----------
+
+Elapsed time for placement: 0 hours 0 minutes 19 seconds

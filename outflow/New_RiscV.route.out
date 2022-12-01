@@ -1,0 +1,123 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2022.1.226 
+Compiled: Aug 29 2022.
+
+Copyright (C) 2013 - 2022 Efinix Inc. All rights reserved.
+
+
+The Tool Is Based on VPR of University of Toronto,
+a free open source code under MIT license.
+
+
+Running Placement and Routing for Family "Trion", Device "T8F81" ...
+
+***** Beginning stage routing graph generation ... *****
+Read ipin pattern from C:/Efinity/2022.1/arch/./ipin_oph.xml
+Finished parsing ipin pattern file 'C:/Efinity/2022.1/arch/./ipin_oph.xdb'.
+Finished parsing switch_block file 'C:/Efinity/2022.1/arch/.\sb_connectivity_subset.xdb'.
+BuildGraph process took 1.71466 seconds.
+	BuildGraph process took 1.6875 seconds (approximately) in total CPU time.
+BuildGraph process virtual memory usage: begin = 99.236 MB, end = 217.416 MB, delta = 118.18 MB
+	BuildGraph process peak virtual memory usage = 219.004 MB
+BuildGraph process resident set memory usage: begin = 102.98 MB, end = 218.192 MB, delta = 115.212 MB
+	BuildGraph process peak resident set memory usage = 219.564 MB
+check rr_graph process took 0.0330855 seconds.
+	check rr_graph process took 0.03125 seconds (approximately) in total CPU time.
+check rr_graph process virtual memory usage: begin = 230.692 MB, end = 231.092 MB, delta = 0.4 MB
+	check rr_graph process peak virtual memory usage = 234.184 MB
+check rr_graph process resident set memory usage: begin = 231.404 MB, end = 231.84 MB, delta = 0.436 MB
+	check rr_graph process peak resident set memory usage = 234.932 MB
+Generated 394351 RR nodes and 1459526 RR edges
+This design has 0 global control net(s). See C:/Efinity/2022.1/project/New_RiscV/outflow\New_RiscV.route.rpt for details.
+Routing graph took 1.81666 seconds.
+	Routing graph took 1.78125 seconds (approximately) in total CPU time.
+Routing graph virtual memory usage: begin = 97.688 MB, end = 218.736 MB, delta = 121.048 MB
+	Routing graph peak virtual memory usage = 234.184 MB
+Routing graph resident set memory usage: begin = 101.912 MB, end = 219.592 MB, delta = 117.68 MB
+	Routing graph peak resident set memory usage = 234.932 MB
+***** Ending stage routing graph generation *****
+
+***** Beginning stage routing ... *****
+
+No SDC file found.  Using default timing constraint of 1 ns.
+NOTE:  Use --sdc_file <SDC_FILE> to override this behavior.
+
+
+ ---------      -------     --------------      -------------
+ Iteration      Overuse     Crit Path (ns)      Calc Time (s)
+ ---------      -------     --------------      -------------
+         1        19007              25.48               2.05
+         2         5120              25.48               3.18
+         3         3231              25.48               2.84
+         4         1354              25.48               2.89
+         5          470              25.48               1.93
+         6          175              25.48               1.63
+         7           61              25.48               0.95
+         8           23              25.87              0.859
+         9            4              25.84              0.297
+        10            1              25.78              0.299
+        11            1              25.78              0.254
+        12            0              25.78              0.249
+
+Successfully routed netlist after 12 routing iterations and 77401258 heapops
+Completed net delay value cross check successfully.
+
+***** Beginning stage routing check ... *****
+***** Ending stage routing check *****
+
+
+Serial number (magic cookie) for the routing is: 241937098
+Netlist fully routed.
+
+Successfully created FPGA route file 'C:/Efinity/2022.1/project/New_RiscV/outflow/New_RiscV.route'
+Routing took 18.219 seconds.
+	Routing took 18.1875 seconds (approximately) in total CPU time.
+Routing virtual memory usage: begin = 218.736 MB, end = 317.148 MB, delta = 98.412 MB
+	Routing peak virtual memory usage = 387.652 MB
+Routing resident set memory usage: begin = 219.596 MB, end = 316.564 MB, delta = 96.968 MB
+	Routing peak resident set memory usage = 373.14 MB
+***** Ending stage routing *****
+
+***** Beginning stage final timing analysis ... *****
+Maximum possible analyzed clocks frequency
+ Clock Name  Period (ns)  Frequency (MHz)     Edge
+    CLK         25.917        38.585         (R-R)
+
+Geomean max period: 25.917
+
+Setup (Max) Clock Relationship
+  Launch Clock    Capture Clock   Constraint (ns)     Slack (ns)          Edge
+      CLK              CLK             1.000           -24.917           (R-R)
+
+Hold (Min) Clock Relationship
+  Launch Clock    Capture Clock   Constraint (ns)     Slack (ns)          Edge
+      CLK              CLK             0.000            0.375            (R-R)
+
+WARNING(1): Clock domain between CLK (rising) and CLK (rising) may not meet (slack: -24.917 ns) the setup (max) timing requirement
+
+Write Timing Report to "C:/Efinity/2022.1/project/New_RiscV/outflow\New_RiscV.timing.rpt" ...
+final timing analysis took 0.435911 seconds.
+	final timing analysis took 0.4375 seconds (approximately) in total CPU time.
+final timing analysis virtual memory usage: begin = 316.088 MB, end = 322.764 MB, delta = 6.676 MB
+	final timing analysis peak virtual memory usage = 387.652 MB
+final timing analysis resident set memory usage: begin = 315.56 MB, end = 320.36 MB, delta = 4.8 MB
+	final timing analysis peak resident set memory usage = 373.14 MB
+***** Ending stage final timing analysis *****
+
+***** Beginning stage bitstream generation ... *****
+Finished writing bitstream file C:/Efinity/2022.1/project/New_RiscV/work_pnr\New_RiscV.lbf.
+Bitstream generation took 0.196997 seconds.
+	Bitstream generation took 0.203125 seconds (approximately) in total CPU time.
+Bitstream generation virtual memory usage: begin = 322.764 MB, end = 328.112 MB, delta = 5.348 MB
+	Bitstream generation peak virtual memory usage = 387.652 MB
+Bitstream generation resident set memory usage: begin = 320.4 MB, end = 325.796 MB, delta = 5.396 MB
+	Bitstream generation peak resident set memory usage = 373.14 MB
+***** Ending stage bitstream generation *****
+
+The entire flow of EFX_PNR took 44.9142 seconds.
+	The entire flow of EFX_PNR took 50.3594 seconds (approximately) in total CPU time.
+The entire flow of EFX_PNR virtual memory usage: begin = 5.26 MB, end = 41.1 MB, delta = 35.84 MB
+	The entire flow of EFX_PNR peak virtual memory usage = 387.652 MB
+The entire flow of EFX_PNR resident set memory usage: begin = 11.376 MB, end = 48.936 MB, delta = 37.56 MB
+	The entire flow of EFX_PNR peak resident set memory usage = 373.14 MB

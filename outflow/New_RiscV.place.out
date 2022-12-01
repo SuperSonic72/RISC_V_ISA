@@ -1,0 +1,259 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2022.1.226 
+Compiled: Aug 29 2022.
+
+Copyright (C) 2013 - 2022 Efinix Inc. All rights reserved.
+
+
+The Tool Is Based on VPR of University of Toronto,
+a free open source code under MIT license.
+
+
+Running Placement and Routing for Family "Trion", Device "T8F81" ...
+
+***** Beginning stage netlist pre-processing ... *****
+Successfully Read in Verific binary Netlist dump file "C:/Efinity/2022.1/project/New_RiscV/New_RiscV.vdb".
+***** Beginning VDB Netlist Checker ... *****
+VDB Netlist Checker took 0.075424 seconds.
+	VDB Netlist Checker took 0.078125 seconds (approximately) in total CPU time.
+VDB Netlist Checker virtual memory usage: begin = 20.7 MB, end = 20.72 MB, delta = 0.02 MB
+	VDB Netlist Checker peak virtual memory usage = 51.268 MB
+VDB Netlist Checker resident set memory usage: begin = 30.94 MB, end = 31.128 MB, delta = 0.188 MB
+	VDB Netlist Checker peak resident set memory usage = 60.108 MB
+***** Ending VDB Netlist Checker ... *****
+Found 0 constant generator nets.
+Pass 0: Swept away 0 nets with no fanout.
+Pass 0: Swept away 0 blocks with no fanout.
+Swept away 0 nets and 0 blocks in total.
+Removed 0 LUT buffers.
+Successfully created VPR logical netlist from Verific binary DataBase file "C:/Efinity/2022.1/project/New_RiscV/New_RiscV.vdb".
+Netlist pre-processing took 0.168886 seconds.
+	Netlist pre-processing took 0.171875 seconds (approximately) in total CPU time.
+Netlist pre-processing virtual memory usage: begin = 10.948 MB, end = 27.392 MB, delta = 16.444 MB
+	Netlist pre-processing peak virtual memory usage = 51.268 MB
+Netlist pre-processing resident set memory usage: begin = 21.196 MB, end = 37.72 MB, delta = 16.524 MB
+	Netlist pre-processing peak resident set memory usage = 60.108 MB
+***** Ending stage netlist pre-processing *****
+
+***** Beginning stage pre-packing ... *****
+***** Ending stage pre-packing *****
+
+***** Beginning stage packing ... *****
+Generate proto netlist for file "C:/Efinity/2022.1/project/New_RiscV/work_pnr\New_RiscV.net_proto" took 0.007 seconds
+Creating IO constraints file 'C:/Efinity/2022.1/project/New_RiscV/work_pnr\New_RiscV.io_place'
+Packing took 0.0467359 seconds.
+	Packing took 0.046875 seconds (approximately) in total CPU time.
+Packing virtual memory usage: begin = 24.404 MB, end = 28.028 MB, delta = 3.624 MB
+	Packing peak virtual memory usage = 51.268 MB
+Packing resident set memory usage: begin = 35.076 MB, end = 38.756 MB, delta = 3.68 MB
+	Packing peak resident set memory usage = 60.108 MB
+***** Ending stage packing *****
+
+***** Beginning stage packed netlist loading ... *****
+Read proto netlist file C:/Efinity/2022.1/project/New_RiscV/work_pnr\New_RiscV.net_proto
+Read proto netlist for file "C:/Efinity/2022.1/project/New_RiscV/work_pnr\New_RiscV.net_proto" took 0.005 seconds
+Setup net and block data structure took 0.153 seconds
+Packed netlist loading took 0.177792 seconds.
+	Packed netlist loading took 0.15625 seconds (approximately) in total CPU time.
+Packed netlist loading virtual memory usage: begin = 28.028 MB, end = 77.648 MB, delta = 49.62 MB
+	Packed netlist loading peak virtual memory usage = 116.804 MB
+Packed netlist loading resident set memory usage: begin = 38.768 MB, end = 86.528 MB, delta = 47.76 MB
+	Packed netlist loading peak resident set memory usage = 125.564 MB
+***** Ending stage packed netlist loading *****
+
+***** Beginning stage pre-placement ... *****
+
+***** Ending stage pre-placement *****
+
+
+No SDC file found.  Using default timing constraint of 1 ns.
+NOTE:  Use --sdc_file <SDC_FILE> to override this behavior.
+
+***** Beginning stage initial placement ... *****
+
+Reading placement constraints from 'C:/Efinity/2022.1/project/New_RiscV/work_pnr\New_RiscV.io_place'.
+WARNING(1): RST has no assigned placement; it will be placed randomly.
+WARNING(2): CLK has no assigned placement; it will be placed randomly.
+WARNING(3): CONTR_OUT[31] has no assigned placement; it will be placed randomly.
+WARNING(4): CONTR_OUT[30] has no assigned placement; it will be placed randomly.
+WARNING(5): CONTR_OUT[29] has no assigned placement; it will be placed randomly.
+WARNING(6): CONTR_OUT[28] has no assigned placement; it will be placed randomly.
+WARNING(7): CONTR_OUT[27] has no assigned placement; it will be placed randomly.
+WARNING(8): CONTR_OUT[26] has no assigned placement; it will be placed randomly.
+WARNING(9): CONTR_OUT[25] has no assigned placement; it will be placed randomly.
+WARNING(10): CONTR_OUT[24] has no assigned placement; it will be placed randomly.
+WARNING(11): CONTR_OUT[23] has no assigned placement; it will be placed randomly.
+WARNING(12): CONTR_OUT[22] has no assigned placement; it will be placed randomly.
+WARNING(13): CONTR_OUT[21] has no assigned placement; it will be placed randomly.
+WARNING(14): CONTR_OUT[20] has no assigned placement; it will be placed randomly.
+WARNING(15): CONTR_OUT[19] has no assigned placement; it will be placed randomly.
+WARNING(16): CONTR_OUT[18] has no assigned placement; it will be placed randomly.
+WARNING(17): CONTR_OUT[17] has no assigned placement; it will be placed randomly.
+WARNING(18): CONTR_OUT[16] has no assigned placement; it will be placed randomly.
+WARNING(19): CONTR_OUT[15] has no assigned placement; it will be placed randomly.
+WARNING(20): CONTR_OUT[14] has no assigned placement; it will be placed randomly.
+WARNING(21): CONTR_OUT[13] has no assigned placement; it will be placed randomly.
+WARNING(22): CONTR_OUT[12] has no assigned placement; it will be placed randomly.
+WARNING(23): CONTR_OUT[11] has no assigned placement; it will be placed randomly.
+WARNING(24): CONTR_OUT[10] has no assigned placement; it will be placed randomly.
+WARNING(25): CONTR_OUT[9] has no assigned placement; it will be placed randomly.
+WARNING(26): CONTR_OUT[8] has no assigned placement; it will be placed randomly.
+WARNING(27): CONTR_OUT[7] has no assigned placement; it will be placed randomly.
+WARNING(28): CONTR_OUT[6] has no assigned placement; it will be placed randomly.
+WARNING(29): CONTR_OUT[5] has no assigned placement; it will be placed randomly.
+WARNING(30): CONTR_OUT[4] has no assigned placement; it will be placed randomly.
+WARNING(31): CONTR_OUT[3] has no assigned placement; it will be placed randomly.
+WARNING(32): CONTR_OUT[2] has no assigned placement; it will be placed randomly.
+WARNING(33): CONTR_OUT[1] has no assigned placement; it will be placed randomly.
+WARNING(34): CONTR_OUT[0] has no assigned placement; it will be placed randomly.
+WARNING(35): PORT_A[31] has no assigned placement; it will be placed randomly.
+WARNING(36): PORT_A[30] has no assigned placement; it will be placed randomly.
+WARNING(37): PORT_A[29] has no assigned placement; it will be placed randomly.
+WARNING(38): PORT_A[28] has no assigned placement; it will be placed randomly.
+WARNING(39): PORT_A[27] has no assigned placement; it will be placed randomly.
+WARNING(40): PORT_A[26] has no assigned placement; it will be placed randomly.
+WARNING(41): PORT_A[25] has no assigned placement; it will be placed randomly.
+WARNING(42): PORT_A[24] has no assigned placement; it will be placed randomly.
+WARNING(43): PORT_A[23] has no assigned placement; it will be placed randomly.
+WARNING(44): PORT_A[22] has no assigned placement; it will be placed randomly.
+WARNING(45): PORT_A[21] has no assigned placement; it will be placed randomly.
+WARNING(46): PORT_A[20] has no assigned placement; it will be placed randomly.
+WARNING(47): PORT_A[19] has no assigned placement; it will be placed randomly.
+WARNING(48): PORT_A[18] has no assigned placement; it will be placed randomly.
+WARNING(49): PORT_A[17] has no assigned placement; it will be placed randomly.
+WARNING(50): PORT_A[16] has no assigned placement; it will be placed randomly.
+WARNING(51): PORT_A[15] has no assigned placement; it will be placed randomly.
+WARNING(52): PORT_A[14] has no assigned placement; it will be placed randomly.
+WARNING(53): PORT_A[13] has no assigned placement; it will be placed randomly.
+WARNING(54): PORT_A[12] has no assigned placement; it will be placed randomly.
+WARNING(55): PORT_A[11] has no assigned placement; it will be placed randomly.
+WARNING(56): PORT_A[10] has no assigned placement; it will be placed randomly.
+WARNING(57): PORT_A[9] has no assigned placement; it will be placed randomly.
+WARNING(58): PORT_A[8] has no assigned placement; it will be placed randomly.
+WARNING(59): PORT_A[7] has no assigned placement; it will be placed randomly.
+WARNING(60): PORT_A[6] has no assigned placement; it will be placed randomly.
+WARNING(61): PORT_A[5] has no assigned placement; it will be placed randomly.
+WARNING(62): PORT_A[4] has no assigned placement; it will be placed randomly.
+WARNING(63): PORT_A[3] has no assigned placement; it will be placed randomly.
+WARNING(64): PORT_A[2] has no assigned placement; it will be placed randomly.
+WARNING(65): PORT_A[1] has no assigned placement; it will be placed randomly.
+WARNING(66): PORT_A[0] has no assigned placement; it will be placed randomly.
+66 IOs will have random placement.
+***** Ending stage initial placement *****
+
+***** Beginning stage placement ... *****
+Create C:/Efinity/2022.1/project/New_RiscV/outflow\New_RiscV_after_qp.qdelay
+NumRegions 1
+Timer::BuildGraph: ============ Cutting edge BACK edge from i17:I[1] to i17:O
+Starting Global Placer with 8 threads ...
+
+ ----------     -------  --------------     -------
+  Iteration       WHPWL Worst Slack (ps) Convergence
+ ----------     -------  --------------     -------
+          1     2593414          -11386         1.3%
+          2     3040804          -11896         1.4%
+          3     3163016          -12947         1.7%
+          4     4014472          -11179         2.3%
+          5     2627411          -12806         4.1%
+          6     1349325          -18371        10.0%
+          7      704262          -24931        23.3%
+          8      432768          -28448        42.4%
+          9      343507          -27573        55.3%
+         10      357876          -28148        68.8%
+         11      344127          -28354        68.8%
+         12      327098          -27530        69.1%
+         13      328737          -28769        71.0%
+         14      311954          -27650        72.3%
+         15      322764          -28501        72.3%
+         16      293398          -27528        72.4%
+         17      296574          -27997        74.7%
+         18      283268          -27758        78.5%
+         19      277808          -27830        78.5%
+         20      275349          -29109        81.4%
+         21      282425          -29338        81.4%
+         22      274861          -27932        81.4%
+         23      274738          -28381        82.9%
+         24      270994          -29483        82.9%
+         25      273050          -27440        85.8%
+         26      269458          -29916        85.8%
+         27      269908          -27754        86.1%
+         28      258755          -28463        86.1%
+         29      259726          -28469        87.3%
+         30      269440          -29130        87.3%
+         31      265042          -29878        87.3%
+         32      262420          -29155        87.3%
+         33      256866          -29097        87.3%
+         34      260423          -29099        88.1%
+         35      261237          -30319        89.0%
+         36      257888          -29524        90.7%
+         37      261346          -29547        91.0%
+         38      258848          -28918        91.0%
+         39      254094          -28399        92.7%
+         40      258744          -29273        94.3%
+         41      262213          -30035        94.3%
+         42      261986          -30206        94.3%
+         43      263423          -30225        95.0%
+         44      258804          -30364        95.9%
+         45      264862          -30064        96.4%
+         46      261070          -30557        97.2%
+         47      259528          -29745        97.2%
+         48      262867          -30534        98.3%
+         49      265635          -32105        98.5%
+         50      268914          -31279        98.7%
+Starting Annealer
+
+ ----------     -------  --------------     -------
+  Iteration       WHPWL  Delay Max (ps)     R Limit
+ ----------     -------  --------------     -------
+          0      259528           32677        30.0
+          1      238725           34161        30.0
+          2      218282           35152        28.5
+          3      207731           32288        26.8
+          4      198640           32676        24.9
+          5      196315           31032        23.2
+          6      193880           32669        21.4
+          7      192256           29992        19.8
+          8      190240           28470        18.2
+          9      188277           28094        16.8
+         10      189649           30676        15.4
+         11      188204           28800        14.2
+         12      186134           27335        13.1
+         13      185037           28148        12.0
+         14      184777           26497        11.0
+         15      184753           28198        10.1
+         16      183549           28417         9.2
+         17      181395           26842         8.4
+         18      178813           26139         7.7
+         19      177286           26286         7.1
+         20      176797           25663         6.4
+         21      175092           28154         5.9
+         22      173175           25343         5.4
+         23      171471           24896         4.9
+         24      170367           23936         4.5
+         25      170998           24471         4.1
+         26      172081           25252         3.7
+         27      171487           24438         3.4
+         28      171480           23388         3.1
+         29      170506           24447         2.8
+         30      170142           23983         2.6
+         31      169515           24894         2.3
+         32      168078           25371         2.1
+Generate C:/Efinity/2022.1/project/New_RiscV/outflow\New_RiscV_after_qp.qdelay
+Placement successful: 4463 cells are placed
+Peak congestion smeared over 1/4 of the chip is 0.586732 at 49,78
+Congestion-weighted HPWL per net: 34.8584
+
+Reading placement constraints from 'C:/Efinity/2022.1/project/New_RiscV/outflow/New_RiscV.qplace'.
+Finished Realigning Types (1026 blocks needed type change)
+
+Completed placement consistency check successfully.
+Successfully created FPGA place file 'C:/Efinity/2022.1/project/New_RiscV/outflow/New_RiscV.place'
+Placement took 19.391 seconds.
+	Placement took 26.2969 seconds (approximately) in total CPU time.
+Placement virtual memory usage: begin = 77.648 MB, end = 97.688 MB, delta = 20.04 MB
+	Placement peak virtual memory usage = 197.5 MB
+Placement resident set memory usage: begin = 86.54 MB, end = 101.908 MB, delta = 15.368 MB
+	Placement peak resident set memory usage = 197.544 MB
+***** Ending stage placement *****
+

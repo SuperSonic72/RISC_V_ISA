@@ -1,0 +1,8 @@
+sep=\t
+Module Resource Usage Distribution Estimates
+Generated at: Dec 01, 2022 14:37:47
+
+Note: some resources maybe grouped under different hierarchy due to optimization and LUT mapping
+
+Module	         FFs	        ADDs	        LUTs	      RAMs	 DSP/MULTs
+RISC_V_Core:RISC_V_Core  	 1385(1385)	   136(136)	 4026(4026)	   22(22)	     0(0)	

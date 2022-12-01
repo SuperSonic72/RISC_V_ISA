@@ -1,0 +1,198 @@
+[EFX-0000 INFO] Efinix FPGA Synthesis.
+[EFX-0000 INFO] Version: 2022.1.226
+[EFX-0000 INFO] Compiled: Aug 29 2022.
+[EFX-0000 INFO] 
+[EFX-0000 INFO] Copyright (C) 2013 - 2022 Efinix Inc. All rights reserved.
+
+INFO: Read project database "C:/Efinity/2022.1/project/New_RiscV/New_RiscV.xml"
+INFO: ***** Beginning Analysis ... *****
+INFO: default VHDL library search path is now "C:/Efinity/2022.1/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504)
+-- Analyzing VHDL file 'C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd' (VHDL-1481)
+-- Restoring VHDL unit 'ieee.std_logic_1164' from file 'C:/Efinity/2022.1/sim_models/vhdl/packages/vhdl_2008/ieee/std_logic_1164.vdb' (VHDL-1493)
+-- Restoring VHDL unit 'std.standard' from file 'C:/Efinity/2022.1/sim_models/vhdl/packages/vhdl_2008/std/standard.vdb' (VHDL-1493)
+-- Restoring VHDL unit 'std.textio' from file 'C:/Efinity/2022.1/sim_models/vhdl/packages/vhdl_2008/std/textio.vdb' (VHDL-1493)
+-- Restoring VHDL unit 'ieee.numeric_std' from file 'C:/Efinity/2022.1/sim_models/vhdl/packages/vhdl_2008/ieee/numeric_std.vdb' (VHDL-1493)
+C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd(25): INFO: analyzing entity 'risc_v_core' (VHDL-1012)
+C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd(34): INFO: analyzing architecture 'behavioral' (VHDL-1010)
+-- Analyzing Verilog file 'C:/Efinity/2022.1/sim_models/maplib/efinix_maplib.v' (VERI-1482)
+INFO: Analysis took 0.0379214 seconds.
+INFO: 	Analysis took 0.03125 seconds (approximately) in total CPU time.
+INFO: Analysis virtual memory usage: begin = 54.128 MB, end = 58.228 MB, delta = 4.1 MB
+INFO: 	Analysis peak virtual memory usage = 58.228 MB
+INFO: Analysis resident set memory usage: begin = 55.096 MB, end = 61.452 MB, delta = 6.356 MB
+INFO: 	Analysis peak resident set memory usage = 61.456 MB
+INFO: ***** Ending Analysis ... *****
+INFO: ***** Beginning Elaboration ... *****
+C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd(25): INFO: processing 'RISC_V_Core(Behavioral)' (VHDL-1067)
+C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd(47): INFO: extracting RAM for identifier 'PROG_MEM' (VHDL-1754)
+C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd(234): INFO: extracting RAM for identifier 'USER_MEM' (VHDL-1754)
+C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd(252): WARNING: using initial value '0' for 'j_pp' since it is never assigned (VHDL-1303)
+C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd(346): WARNING: 'sinc_t1' should be on the sensitivity list of the process (VHDL-1251)
+C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd(347): WARNING: 'sinc_t2' should be on the sensitivity list of the process (VHDL-1251)
+C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd(348): WARNING: 'sinc_t1' should be on the sensitivity list of the process (VHDL-1251)
+C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd(352): WARNING: incomplete sensitivity list specified; assuming completeness (VHDL-1613)
+C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd(352): WARNING: latch inferred for net 'sys_RES' (VHDL-1840)
+C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd(452): INFO: 'others' clause is never selected (VHDL-1172)
+C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd(458): INFO: 'others' clause is never selected (VHDL-1172)
+C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd(483): INFO: 'others' clause is never selected (VHDL-1172)
+C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd(499): INFO: 'others' clause is never selected (VHDL-1172)
+C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd(505): INFO: 'others' clause is never selected (VHDL-1172)
+C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd(531): INFO: 'others' clause is never selected (VHDL-1172)
+C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd(590): INFO: 'others' clause is never selected (VHDL-1172)
+C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd(629): INFO: 'others' clause is never selected (VHDL-1172)
+C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd(633): WARNING: actual of size 32 will overflow return type 'natural' in feedthrough function 'to_integer' (VHDL-1851)
+C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd(47): WARNING: net 'PROG_MEM' does not have a driver (VDB-1002)
+INFO: Elaboration took 0.224085 seconds.
+INFO: 	Elaboration took 0.21875 seconds (approximately) in total CPU time.
+INFO: Elaboration virtual memory usage: begin = 58.228 MB, end = 83.12 MB, delta = 24.892 MB
+INFO: 	Elaboration peak virtual memory usage = 83.12 MB
+INFO: Elaboration resident set memory usage: begin = 61.46 MB, end = 86.5 MB, delta = 25.04 MB
+INFO: 	Elaboration peak resident set memory usage = 86.504 MB
+INFO: ***** Ending Elaboration ... *****
+[EFX-0008 WARNING] Top module not specified. 'RISC_V_Core' is used as top module for the design.
+[EFX-0000 INFO] Setting Synthesis Option: mode=speed
+INFO: ***** Beginning Reading Mapping Library ... *****
+-- Analyzing Verilog file 'C:/Efinity/2022.1/sim_models/maplib/efinix_maplib.v' (VERI-1482)
+C:/Efinity/2022.1/sim_models/maplib/efinix_maplib.v(6): INFO: compiling module 'EFX_ADD' (VERI-1018)
+C:/Efinity/2022.1/sim_models/maplib/efinix_maplib.v(19): INFO: compiling module 'EFX_FF' (VERI-1018)
+C:/Efinity/2022.1/sim_models/maplib/efinix_maplib.v(36): INFO: compiling module 'EFX_COMB4' (VERI-1018)
+C:/Efinity/2022.1/sim_models/maplib/efinix_maplib.v(46): INFO: compiling module 'EFX_GBUFCE' (VERI-1018)
+C:/Efinity/2022.1/sim_models/maplib/efinix_maplib.v(55): INFO: compiling module 'EFX_IDDR' (VERI-1018)
+C:/Efinity/2022.1/sim_models/maplib/efinix_maplib.v(69): INFO: compiling module 'EFX_ODDR' (VERI-1018)
+C:/Efinity/2022.1/sim_models/maplib/efinix_maplib.v(85): INFO: compiling module 'EFX_IOBUF' (VERI-1018)
+C:/Efinity/2022.1/sim_models/maplib/efinix_maplib.v(97): INFO: compiling module 'EFX_LUT4' (VERI-1018)
+C:/Efinity/2022.1/sim_models/maplib/efinix_maplib.v(105): INFO: compiling module 'EFX_MULT' (VERI-1018)
+C:/Efinity/2022.1/sim_models/maplib/efinix_maplib.v(140): INFO: compiling module 'EFX_DSP48' (VERI-1018)
+C:/Efinity/2022.1/sim_models/maplib/efinix_maplib.v(196): INFO: compiling module 'EFX_DSP24' (VERI-1018)
+C:/Efinity/2022.1/sim_models/maplib/efinix_maplib.v(249): INFO: compiling module 'EFX_DSP12' (VERI-1018)
+C:/Efinity/2022.1/sim_models/maplib/efinix_maplib.v(302): INFO: compiling module 'EFX_RAM_4K' (VERI-1018)
+C:/Efinity/2022.1/sim_models/maplib/efinix_maplib.v(362): INFO: compiling module 'EFX_RAM_5K' (VERI-1018)
+C:/Efinity/2022.1/sim_models/maplib/efinix_maplib.v(434): INFO: compiling module 'EFX_DPRAM_5K' (VERI-1018)
+C:/Efinity/2022.1/sim_models/maplib/efinix_maplib.v(539): INFO: compiling module 'RAMB5' (VERI-1018)
+C:/Efinity/2022.1/sim_models/maplib/efinix_maplib.v(601): INFO: compiling module 'EFX_RAM_10K' (VERI-1018)
+C:/Efinity/2022.1/sim_models/maplib/efinix_maplib.v(693): INFO: compiling module 'EFX_RAM10' (VERI-1018)
+C:/Efinity/2022.1/sim_models/maplib/efinix_maplib.v(794): INFO: compiling module 'EFX_DPRAM10' (VERI-1018)
+C:/Efinity/2022.1/sim_models/maplib/efinix_maplib.v(924): INFO: compiling module 'EFX_SRL8' (VERI-1018)
+INFO: Reading Mapping Library took 0.0140774 seconds.
+INFO: 	Reading Mapping Library took 0.015625 seconds (approximately) in total CPU time.
+INFO: Reading Mapping Library virtual memory usage: begin = 84.084 MB, end = 84.084 MB, delta = 0 MB
+INFO: 	Reading Mapping Library peak virtual memory usage = 84.084 MB
+INFO: Reading Mapping Library resident set memory usage: begin = 87.696 MB, end = 88.148 MB, delta = 0.452 MB
+INFO: 	Reading Mapping Library peak resident set memory usage = 88.152 MB
+INFO: ***** Ending Reading Mapping Library ... *****
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0256 WARNING] The primary output port 'PORT_A[31]' wire 'PORT_A[31]' is not driven.
+[EFX-0256 WARNING] The primary output port 'PORT_A[30]' wire 'PORT_A[30]' is not driven.
+[EFX-0256 WARNING] The primary output port 'PORT_A[29]' wire 'PORT_A[29]' is not driven.
+[EFX-0256 WARNING] The primary output port 'PORT_A[28]' wire 'PORT_A[28]' is not driven.
+[EFX-0256 WARNING] The primary output port 'PORT_A[27]' wire 'PORT_A[27]' is not driven.
+[EFX-0256 WARNING] The primary output port 'PORT_A[26]' wire 'PORT_A[26]' is not driven.
+[EFX-0256 WARNING] The primary output port 'PORT_A[25]' wire 'PORT_A[25]' is not driven.
+[EFX-0256 WARNING] The primary output port 'PORT_A[24]' wire 'PORT_A[24]' is not driven.
+[EFX-0256 WARNING] The primary output port 'PORT_A[23]' wire 'PORT_A[23]' is not driven.
+[EFX-0256 WARNING] The primary output port 'PORT_A[22]' wire 'PORT_A[22]' is not driven.
+[EFX-0256 WARNING] The primary output port 'PORT_A[21]' wire 'PORT_A[21]' is not driven.
+[EFX-0256 WARNING] The primary output port 'PORT_A[20]' wire 'PORT_A[20]' is not driven.
+[EFX-0256 WARNING] The primary output port 'PORT_A[19]' wire 'PORT_A[19]' is not driven.
+[EFX-0256 WARNING] The primary output port 'PORT_A[18]' wire 'PORT_A[18]' is not driven.
+[EFX-0256 WARNING] The primary output port 'PORT_A[17]' wire 'PORT_A[17]' is not driven.
+[EFX-0256 WARNING] The primary output port 'PORT_A[16]' wire 'PORT_A[16]' is not driven.
+[EFX-0256 WARNING] The primary output port 'PORT_A[15]' wire 'PORT_A[15]' is not driven.
+[EFX-0256 WARNING] The primary output port 'PORT_A[14]' wire 'PORT_A[14]' is not driven.
+[EFX-0256 WARNING] The primary output port 'PORT_A[13]' wire 'PORT_A[13]' is not driven.
+[EFX-0256 WARNING] The primary output port 'PORT_A[12]' wire 'PORT_A[12]' is not driven.
+[EFX-0256 WARNING] The primary output port 'PORT_A[11]' wire 'PORT_A[11]' is not driven.
+[EFX-0256 WARNING] The primary output port 'PORT_A[10]' wire 'PORT_A[10]' is not driven.
+[EFX-0256 WARNING] The primary output port 'PORT_A[9]' wire 'PORT_A[9]' is not driven.
+[EFX-0256 WARNING] The primary output port 'PORT_A[8]' wire 'PORT_A[8]' is not driven.
+[EFX-0256 WARNING] The primary output port 'PORT_A[7]' wire 'PORT_A[7]' is not driven.
+[EFX-0256 WARNING] The primary output port 'PORT_A[6]' wire 'PORT_A[6]' is not driven.
+[EFX-0256 WARNING] The primary output port 'PORT_A[5]' wire 'PORT_A[5]' is not driven.
+[EFX-0256 WARNING] The primary output port 'PORT_A[4]' wire 'PORT_A[4]' is not driven.
+[EFX-0256 WARNING] The primary output port 'PORT_A[3]' wire 'PORT_A[3]' is not driven.
+[EFX-0256 WARNING] The primary output port 'PORT_A[2]' wire 'PORT_A[2]' is not driven.
+[EFX-0256 WARNING] The primary output port 'PORT_A[1]' wire 'PORT_A[1]' is not driven.
+[EFX-0256 WARNING] The primary output port 'PORT_A[0]' wire 'PORT_A[0]' is not driven.
+[EFX-0031 INFO] 'i17' instance is encountered with don't-care(1'bx) input, rewiring to GND. (C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd:352)
+[EFX-0677 INFO] Zero initialization of uninitialized memory block 'USER_MEM'. (C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd:234)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s)
+[EFX-0000 INFO] ... Mapping design "RISC_V_Core"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "RISC_V_Core" begin
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'PORT_A[31]'. (C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd:29)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'PORT_A[30]'. (C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd:29)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'PORT_A[29]'. (C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd:29)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'PORT_A[28]'. (C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd:29)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'PORT_A[27]'. (C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd:29)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'PORT_A[26]'. (C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd:29)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'PORT_A[25]'. (C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd:29)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'PORT_A[24]'. (C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd:29)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'PORT_A[23]'. (C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd:29)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'PORT_A[22]'. (C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd:29)
+[EFX-0201 WARNING] The above message was generated too many times, subsequent similar messages will be muted.
+[EFX-0200 WARNING] Removing redundant signal : U_REG[31]. (C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd:247)
+[EFX-0200 WARNING] Removing redundant signal : U_REG[30]. (C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd:247)
+[EFX-0200 WARNING] Removing redundant signal : U_REG[29]. (C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd:247)
+[EFX-0200 WARNING] Removing redundant signal : U_REG[28]. (C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd:247)
+[EFX-0200 WARNING] Removing redundant signal : U_REG[27]. (C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd:247)
+[EFX-0200 WARNING] Removing redundant signal : U_REG[26]. (C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd:247)
+[EFX-0200 WARNING] Removing redundant signal : U_REG[25]. (C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd:247)
+[EFX-0200 WARNING] Removing redundant signal : U_REG[24]. (C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd:247)
+[EFX-0200 WARNING] Removing redundant signal : U_REG[23]. (C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd:247)
+[EFX-0200 WARNING] Removing redundant signal : U_REG[22]. (C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd:247)
+[EFX-0200 WARNING] Removing redundant signal : U_REG[21]. (C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd:247)
+[EFX-0200 WARNING] Removing redundant signal : U_REG[20]. (C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd:247)
+[EFX-0200 WARNING] Removing redundant signal : U_REG[19]. (C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd:247)
+[EFX-0200 WARNING] Removing redundant signal : U_REG[18]. (C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd:247)
+[EFX-0200 WARNING] Removing redundant signal : U_REG[17]. (C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd:247)
+[EFX-0200 WARNING] Removing redundant signal : U_REG[16]. (C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd:247)
+[EFX-0200 WARNING] Removing redundant signal : U_REG[15]. (C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd:247)
+[EFX-0200 WARNING] Removing redundant signal : U_REG[14]. (C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd:247)
+[EFX-0200 WARNING] Removing redundant signal : U_REG[13]. (C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd:247)
+[EFX-0200 WARNING] Removing redundant signal : U_REG[12]. (C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd:247)
+[EFX-0200 WARNING] The above message was generated too many times, subsequent similar messages will be muted.
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 6794 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "RISC_V_Core" end (Real time : 3s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network CLK with 2035 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 3980 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 6s)
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 4029, ed: 14780, lv: 6, pw: 7184.55
+[EFX-0000 INFO] ... LUT mapping end (Real time : 20s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network n4 with 1267 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 5 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 1s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s)
+INFO: ***** Beginning VDB Netlist Checker ... *****
+INFO: VDB Netlist Checker took 0.0724409 seconds.
+INFO: 	VDB Netlist Checker took 0.0625 seconds (approximately) in total CPU time.
+INFO: VDB Netlist Checker virtual memory usage: begin = 157.608 MB, end = 157.608 MB, delta = 0 MB
+INFO: 	VDB Netlist Checker peak virtual memory usage = 179.996 MB
+INFO: VDB Netlist Checker resident set memory usage: begin = 161.42 MB, end = 161.468 MB, delta = 0.048 MB
+INFO: 	VDB Netlist Checker peak resident set memory usage = 182.548 MB
+INFO: ***** Ending VDB Netlist Checker ... *****
+-- Writing netlist 'RISC_V_Core' to Verilog file 'C:/Efinity/2022.1/project/New_RiscV/outflow/New_RiscV.map.v' (VDB-1030)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	136
+[EFX-0000 INFO] EFX_LUT4        : 	4026
+[EFX-0000 INFO] EFX_FF          : 	1385
+[EFX-0000 INFO] EFX_RAM_5K      : 	22
+[EFX-0000 INFO] EFX_GBUFCE      : 	1
+[EFX-0000 INFO] =============================== 

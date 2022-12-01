@@ -1,0 +1,1139 @@
+Synthesis report for project New_RiscV
+Generated at: Dec 01, 2022 14:37:47
+Copyright (C) 2013 - 2022 Efinix Inc. All rights reserved.
+
+### ### ### ### ### ### ### ### ### ### ### ### ### ### ###
+
+Top-level Entity Name : RISC_V_Core
+### ### File List (begin) ### ### ###
+C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd
+### ### File List (end) ### ### ###
+
+"MEM|SYN-0677" : Zero initialization of uninitialized memory block 'USER_MEM'. (C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd:234)
+### ### EFX_FF CE enables (begin) ### ### ###
+Total number of enable signals: 108
+CE signal <n30664>, number of controlling flip flops: 78
+CE signal <n221>, number of controlling flip flops: 32
+CE signal <STAGE2_EN>, number of controlling flip flops: 1
+CE signal <ceg_net35296>, number of controlling flip flops: 2
+CE signal <n50065>, number of controlling flip flops: 10
+CE signal <STAGE3_EN>, number of controlling flip flops: 1
+CE signal <n30678>, number of controlling flip flops: 7
+CE signal <ceg_net47657>, number of controlling flip flops: 1
+CE signal <n50476>, number of controlling flip flops: 3
+CE signal <n50605>, number of controlling flip flops: 10
+CE signal <ceg_net35302>, number of controlling flip flops: 32
+CE signal <ceg_net27233>, number of controlling flip flops: 8
+CE signal <ceg_net27485>, number of controlling flip flops: 8
+CE signal <ceg_net27737>, number of controlling flip flops: 8
+CE signal <ceg_net27989>, number of controlling flip flops: 8
+CE signal <ceg_net28241>, number of controlling flip flops: 8
+CE signal <ceg_net28493>, number of controlling flip flops: 8
+CE signal <ceg_net28745>, number of controlling flip flops: 8
+CE signal <ceg_net28997>, number of controlling flip flops: 8
+CE signal <ceg_net29249>, number of controlling flip flops: 8
+CE signal <ceg_net29501>, number of controlling flip flops: 8
+CE signal <ceg_net29753>, number of controlling flip flops: 8
+CE signal <ceg_net30005>, number of controlling flip flops: 8
+CE signal <ceg_net30257>, number of controlling flip flops: 8
+CE signal <ceg_net30509>, number of controlling flip flops: 8
+CE signal <ceg_net30761>, number of controlling flip flops: 8
+CE signal <ceg_net31013>, number of controlling flip flops: 8
+CE signal <ceg_net31265>, number of controlling flip flops: 8
+CE signal <ceg_net31517>, number of controlling flip flops: 8
+CE signal <ceg_net31769>, number of controlling flip flops: 8
+CE signal <ceg_net32021>, number of controlling flip flops: 8
+CE signal <ceg_net32273>, number of controlling flip flops: 8
+CE signal <ceg_net32525>, number of controlling flip flops: 8
+CE signal <ceg_net32777>, number of controlling flip flops: 8
+CE signal <ceg_net33029>, number of controlling flip flops: 8
+CE signal <ceg_net33281>, number of controlling flip flops: 8
+CE signal <ceg_net33533>, number of controlling flip flops: 8
+CE signal <ceg_net33785>, number of controlling flip flops: 8
+CE signal <ceg_net34037>, number of controlling flip flops: 8
+CE signal <ceg_net34289>, number of controlling flip flops: 8
+CE signal <ceg_net34541>, number of controlling flip flops: 8
+CE signal <ceg_net34793>, number of controlling flip flops: 8
+CE signal <ceg_net18979>, number of controlling flip flops: 8
+CE signal <ceg_net408>, number of controlling flip flops: 151
+CE signal <ceg_net41512>, number of controlling flip flops: 8
+CE signal <ceg_net49709>, number of controlling flip flops: 16
+CE signal <ceg_net41704>, number of controlling flip flops: 8
+CE signal <ceg_net49773>, number of controlling flip flops: 16
+CE signal <ceg_net41896>, number of controlling flip flops: 8
+CE signal <ceg_net49837>, number of controlling flip flops: 16
+CE signal <ceg_net42088>, number of controlling flip flops: 8
+CE signal <ceg_net49901>, number of controlling flip flops: 16
+CE signal <ceg_net42280>, number of controlling flip flops: 8
+CE signal <ceg_net49965>, number of controlling flip flops: 16
+CE signal <ceg_net42472>, number of controlling flip flops: 8
+CE signal <ceg_net50029>, number of controlling flip flops: 16
+CE signal <ceg_net42664>, number of controlling flip flops: 8
+CE signal <ceg_net50093>, number of controlling flip flops: 16
+CE signal <ceg_net42856>, number of controlling flip flops: 8
+CE signal <ceg_net50157>, number of controlling flip flops: 16
+CE signal <ceg_net43048>, number of controlling flip flops: 8
+CE signal <ceg_net50221>, number of controlling flip flops: 16
+CE signal <ceg_net43240>, number of controlling flip flops: 8
+CE signal <ceg_net50285>, number of controlling flip flops: 16
+CE signal <ceg_net43432>, number of controlling flip flops: 8
+CE signal <ceg_net50349>, number of controlling flip flops: 16
+CE signal <ceg_net43624>, number of controlling flip flops: 8
+CE signal <ceg_net50413>, number of controlling flip flops: 16
+CE signal <ceg_net43816>, number of controlling flip flops: 8
+CE signal <ceg_net50477>, number of controlling flip flops: 16
+CE signal <ceg_net44008>, number of controlling flip flops: 8
+CE signal <ceg_net50541>, number of controlling flip flops: 16
+CE signal <ceg_net44200>, number of controlling flip flops: 8
+CE signal <ceg_net50605>, number of controlling flip flops: 16
+CE signal <ceg_net44392>, number of controlling flip flops: 8
+CE signal <ceg_net50669>, number of controlling flip flops: 16
+CE signal <ceg_net44584>, number of controlling flip flops: 8
+CE signal <ceg_net50733>, number of controlling flip flops: 16
+CE signal <ceg_net44776>, number of controlling flip flops: 8
+CE signal <ceg_net50797>, number of controlling flip flops: 16
+CE signal <ceg_net44968>, number of controlling flip flops: 8
+CE signal <ceg_net50861>, number of controlling flip flops: 16
+CE signal <ceg_net45160>, number of controlling flip flops: 8
+CE signal <ceg_net50925>, number of controlling flip flops: 16
+CE signal <ceg_net45352>, number of controlling flip flops: 8
+CE signal <ceg_net50989>, number of controlling flip flops: 16
+CE signal <ceg_net45544>, number of controlling flip flops: 8
+CE signal <ceg_net51053>, number of controlling flip flops: 16
+CE signal <ceg_net45736>, number of controlling flip flops: 8
+CE signal <ceg_net51117>, number of controlling flip flops: 16
+CE signal <ceg_net45928>, number of controlling flip flops: 8
+CE signal <ceg_net51181>, number of controlling flip flops: 16
+CE signal <ceg_net46120>, number of controlling flip flops: 8
+CE signal <ceg_net51245>, number of controlling flip flops: 16
+CE signal <ceg_net46312>, number of controlling flip flops: 8
+CE signal <ceg_net51309>, number of controlling flip flops: 16
+CE signal <ceg_net46504>, number of controlling flip flops: 8
+CE signal <ceg_net51373>, number of controlling flip flops: 16
+CE signal <ceg_net46696>, number of controlling flip flops: 8
+CE signal <ceg_net51437>, number of controlling flip flops: 16
+CE signal <ceg_net46888>, number of controlling flip flops: 8
+CE signal <ceg_net51501>, number of controlling flip flops: 16
+CE signal <ceg_net47080>, number of controlling flip flops: 8
+CE signal <ceg_net51565>, number of controlling flip flops: 16
+CE signal <ceg_net47272>, number of controlling flip flops: 8
+CE signal <ceg_net51629>, number of controlling flip flops: 16
+CE signal <ceg_net47464>, number of controlling flip flops: 8
+CE signal <ceg_net51753>, number of controlling flip flops: 16
+### ### EFX_FF CE enables (end) ### ### ###
+
+### ### EFX_FF SR set/reset (begin) ### ### ###
+Total number of set/reset signals: 1
+SR signal <n221>, number of controlling flip flops: 35
+### ### EFX_FF SR set/reset (end) ### ### ###
+
+### ### Memory Trimming Report (begin) ### ### ### 
+Memory instance 'PROG_MEM__D$b12' WE tied off to 0.
+Memory instance 'PROG_MEM__D$o1' WE tied off to 0.
+Memory instance 'PROG_MEM__D$n12' WE tied off to 0.
+Memory instance 'PROG_MEM__D$m12' WE tied off to 0.
+Memory instance 'PROG_MEM__D$l12' WE tied off to 0.
+Memory instance 'PROG_MEM__D$k12' WE tied off to 0.
+Memory instance 'PROG_MEM__D$j12' WE tied off to 0.
+Memory instance 'PROG_MEM__D$i12' WE tied off to 0.
+Memory instance 'PROG_MEM__D$h12' WE tied off to 0.
+Memory instance 'PROG_MEM__D$g12' WE tied off to 0.
+Memory instance 'PROG_MEM__D$f12' WE tied off to 0.
+Memory instance 'PROG_MEM__D$e12' WE tied off to 0.
+Memory instance 'PROG_MEM__D$d12' WE tied off to 0.
+Memory instance 'PROG_MEM__D$c12' WE tied off to 0.
+Memory instance 'PROG_MEM__D$12' WE tied off to 0.
+### ### Memory Trimming Report (end) ### ### ### 
+
+### ### Sequential Elements Trimming Report (begin) ### ### ### 
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (368)" removed instance : i22661
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (368)" representative instance : i22657
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (368)" removed instance : i22665
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (368)" representative instance : i22657
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (368)" removed instance : i22669
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (368)" representative instance : i22657
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (368)" removed instance : i22673
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (368)" representative instance : i22657
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (368)" removed instance : i22625
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (368)" representative instance : i22657
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (368)" removed instance : i22629
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (368)" representative instance : i22657
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (368)" removed instance : i22633
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (368)" representative instance : i22657
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (368)" removed instance : i22561
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (368)" representative instance : i22657
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (368)" removed instance : i22585
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (368)" representative instance : i22657
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (368)" removed instance : i22589
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (368)" representative instance : i22657
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (368)" removed instance : i22593
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (368)" representative instance : i22657
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (368)" removed instance : i22597
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (368)" representative instance : i22657
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (368)" removed instance : i22601
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (368)" representative instance : i22657
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (368)" removed instance : i22605
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (368)" representative instance : i22657
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (368)" removed instance : i22609
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (368)" representative instance : i22657
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (368)" removed instance : i22613
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (368)" representative instance : i22657
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (368)" removed instance : i22617
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (368)" representative instance : i22657
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (368)" removed instance : i22621
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (368)" representative instance : i22657
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (368)" removed instance : i22653
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (368)" representative instance : i22657
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (368)" removed instance : i22649
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (368)" representative instance : i22657
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (368)" removed instance : i22645
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (368)" representative instance : i22657
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (368)" removed instance : i22641
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (368)" representative instance : i22657
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (368)" removed instance : i22637
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (368)" representative instance : i22657
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (368)" removed instance : i22581
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (368)" representative instance : i22657
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (368)" removed instance : i22577
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (368)" representative instance : i22657
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (368)" removed instance : i22573
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (368)" representative instance : i22657
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (368)" removed instance : i22569
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (368)" representative instance : i22657
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (368)" removed instance : i22565
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (368)" representative instance : i22657
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (368)" removed instance : i22557
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (368)" representative instance : i22657
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (544)" removed instance : dff_169/i13
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (544)" representative instance : dff_169/i12
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (544)" removed instance : dff_169/i14
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (544)" representative instance : dff_169/i12
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (544)" removed instance : dff_169/i15
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (544)" representative instance : dff_169/i12
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (544)" removed instance : dff_169/i16
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (544)" representative instance : dff_169/i12
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (544)" removed instance : dff_169/i17
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (544)" representative instance : dff_169/i12
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (544)" removed instance : dff_169/i18
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (544)" representative instance : dff_169/i12
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (544)" removed instance : dff_169/i19
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (544)" representative instance : dff_169/i12
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (544)" removed instance : dff_169/i20
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (544)" representative instance : dff_169/i12
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (544)" removed instance : dff_169/i21
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (544)" representative instance : dff_169/i12
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (544)" removed instance : dff_169/i22
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (544)" representative instance : dff_169/i12
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (544)" removed instance : dff_169/i23
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (544)" representative instance : dff_169/i12
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (544)" removed instance : dff_169/i24
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (544)" representative instance : dff_169/i12
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (544)" removed instance : dff_169/i25
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (544)" representative instance : dff_169/i12
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (544)" removed instance : dff_169/i26
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (544)" representative instance : dff_169/i12
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (544)" removed instance : dff_169/i27
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (544)" representative instance : dff_169/i12
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (544)" removed instance : dff_169/i28
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (544)" representative instance : dff_169/i12
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (544)" removed instance : dff_169/i29
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (544)" representative instance : dff_169/i12
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (544)" removed instance : dff_169/i30
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (544)" representative instance : dff_169/i12
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (544)" removed instance : dff_169/i31
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (544)" representative instance : dff_169/i12
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (544)" removed instance : dff_169/i32
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (544)" representative instance : dff_169/i12
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1176/i1
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1240/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1174/i1
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1238/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1172/i1
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1236/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1170/i1
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1234/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1168/i1
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1232/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1166/i1
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1230/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1164/i1
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1228/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1162/i1
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1226/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1160/i1
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1224/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1158/i1
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1222/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1156/i1
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1220/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1154/i1
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1218/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1152/i1
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1216/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1150/i1
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1214/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1148/i1
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1212/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1146/i1
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1210/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1144/i1
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1208/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1142/i1
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1206/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1140/i1
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1204/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1138/i1
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1202/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1136/i1
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1200/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1134/i1
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1198/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1132/i1
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1196/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1130/i1
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1194/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1128/i1
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1192/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1126/i1
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1190/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1124/i1
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1188/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1122/i1
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1186/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1120/i1
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1184/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1118/i1
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1182/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1116/i1
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1180/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1114/i1
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1178/i1
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1176/i2
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1240/i2
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1174/i2
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1238/i2
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1172/i2
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1236/i2
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1170/i2
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1234/i2
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1168/i2
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1232/i2
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1166/i2
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1230/i2
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1164/i2
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1228/i2
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1162/i2
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1226/i2
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1160/i2
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1224/i2
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1158/i2
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1222/i2
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1156/i2
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1220/i2
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1154/i2
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1218/i2
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1152/i2
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1216/i2
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1150/i2
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1214/i2
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1148/i2
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1212/i2
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1146/i2
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1210/i2
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1144/i2
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1208/i2
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1142/i2
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1206/i2
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1140/i2
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1204/i2
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1138/i2
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1202/i2
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1136/i2
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1200/i2
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1134/i2
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1198/i2
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1132/i2
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1196/i2
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1130/i2
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1194/i2
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1128/i2
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1192/i2
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1126/i2
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1190/i2
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1124/i2
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1188/i2
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1122/i2
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1186/i2
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1120/i2
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1184/i2
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1118/i2
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1182/i2
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1116/i2
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1180/i2
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1114/i2
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1178/i2
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1176/i3
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1240/i3
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1174/i3
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1238/i3
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1172/i3
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1236/i3
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1170/i3
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1234/i3
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1168/i3
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1232/i3
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1166/i3
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1230/i3
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1164/i3
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1228/i3
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1162/i3
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1226/i3
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1160/i3
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1224/i3
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1158/i3
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1222/i3
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1156/i3
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1220/i3
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1154/i3
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1218/i3
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1152/i3
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1216/i3
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1150/i3
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1214/i3
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1148/i3
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1212/i3
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1146/i3
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1210/i3
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1144/i3
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1208/i3
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1142/i3
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1206/i3
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1140/i3
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1204/i3
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1138/i3
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1202/i3
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1136/i3
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1200/i3
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1134/i3
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1198/i3
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1132/i3
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1196/i3
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1130/i3
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1194/i3
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1128/i3
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1192/i3
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1126/i3
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1190/i3
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1124/i3
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1188/i3
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1122/i3
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1186/i3
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1120/i3
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1184/i3
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1118/i3
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1182/i3
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1116/i3
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1180/i3
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1114/i3
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1178/i3
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1176/i4
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1240/i4
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1174/i4
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1238/i4
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1172/i4
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1236/i4
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1170/i4
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1234/i4
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1168/i4
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1232/i4
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1166/i4
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1230/i4
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1164/i4
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1228/i4
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1162/i4
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1226/i4
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1160/i4
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1224/i4
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1158/i4
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1222/i4
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1156/i4
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1220/i4
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1154/i4
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1218/i4
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1152/i4
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1216/i4
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1150/i4
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1214/i4
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1148/i4
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1212/i4
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1146/i4
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1210/i4
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1144/i4
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1208/i4
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1142/i4
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1206/i4
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1140/i4
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1204/i4
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1138/i4
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1202/i4
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1136/i4
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1200/i4
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1134/i4
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1198/i4
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1132/i4
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1196/i4
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1130/i4
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1194/i4
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1128/i4
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1192/i4
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1126/i4
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1190/i4
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1124/i4
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1188/i4
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1122/i4
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1186/i4
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1120/i4
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1184/i4
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1118/i4
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1182/i4
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1116/i4
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1180/i4
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1114/i4
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1178/i4
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1176/i5
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1240/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1174/i5
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1238/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1172/i5
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1236/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1170/i5
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1234/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1168/i5
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1232/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1166/i5
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1230/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1164/i5
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1228/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1162/i5
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1226/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1160/i5
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1224/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1158/i5
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1222/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1156/i5
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1220/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1154/i5
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1218/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1152/i5
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1216/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1150/i5
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1214/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1148/i5
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1212/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1146/i5
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1210/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1144/i5
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1208/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1142/i5
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1206/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1140/i5
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1204/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1138/i5
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1202/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1136/i5
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1200/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1134/i5
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1198/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1132/i5
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1196/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1130/i5
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1194/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1128/i5
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1192/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1126/i5
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1190/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1124/i5
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1188/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1122/i5
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1186/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1120/i5
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1184/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1118/i5
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1182/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1116/i5
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1180/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1114/i5
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1178/i5
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1176/i6
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1240/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1174/i6
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1238/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1172/i6
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1236/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1170/i6
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1234/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1168/i6
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1232/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1166/i6
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1230/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1164/i6
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1228/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1162/i6
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1226/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1160/i6
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1224/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1158/i6
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1222/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1156/i6
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1220/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1154/i6
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1218/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1152/i6
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1216/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1150/i6
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1214/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1148/i6
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1212/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1146/i6
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1210/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1144/i6
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1208/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1142/i6
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1206/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1140/i6
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1204/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1138/i6
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1202/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1136/i6
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1200/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1134/i6
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1198/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1132/i6
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1196/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1130/i6
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1194/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1128/i6
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1192/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1126/i6
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1190/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1124/i6
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1188/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1122/i6
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1186/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1120/i6
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1184/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1118/i6
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1182/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1116/i6
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1180/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1114/i6
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1178/i6
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1176/i7
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1240/i7
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1174/i7
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1238/i7
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1172/i7
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1236/i7
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1170/i7
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1234/i7
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1168/i7
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1232/i7
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1166/i7
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1230/i7
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1164/i7
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1228/i7
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1162/i7
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1226/i7
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1160/i7
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1224/i7
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1158/i7
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1222/i7
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1156/i7
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1220/i7
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1154/i7
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1218/i7
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1152/i7
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1216/i7
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1150/i7
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1214/i7
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1148/i7
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1212/i7
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1146/i7
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1210/i7
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1144/i7
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1208/i7
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1142/i7
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1206/i7
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1140/i7
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1204/i7
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1138/i7
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1202/i7
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1136/i7
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1200/i7
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1134/i7
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1198/i7
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1132/i7
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1196/i7
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1130/i7
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1194/i7
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1128/i7
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1192/i7
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1126/i7
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1190/i7
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1124/i7
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1188/i7
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1122/i7
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1186/i7
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1120/i7
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1184/i7
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1118/i7
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1182/i7
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1116/i7
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1180/i7
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1114/i7
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1178/i7
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1176/i8
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1240/i8
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1174/i8
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1238/i8
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1172/i8
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1236/i8
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1170/i8
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1234/i8
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1168/i8
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1232/i8
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1166/i8
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1230/i8
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1164/i8
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1228/i8
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1162/i8
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1226/i8
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1160/i8
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1224/i8
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1158/i8
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1222/i8
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1156/i8
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1220/i8
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1154/i8
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1218/i8
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1152/i8
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1216/i8
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1150/i8
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1214/i8
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1148/i8
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1212/i8
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1146/i8
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1210/i8
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1144/i8
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1208/i8
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1142/i8
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1206/i8
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1140/i8
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1204/i8
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1138/i8
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1202/i8
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1136/i8
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1200/i8
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1134/i8
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1198/i8
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1132/i8
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1196/i8
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1130/i8
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1194/i8
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1128/i8
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1192/i8
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1126/i8
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1190/i8
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1124/i8
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1188/i8
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1122/i8
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1186/i8
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1120/i8
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1184/i8
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1118/i8
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1182/i8
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1116/i8
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1180/i8
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" removed instance : dff_1114/i8
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (636)" representative instance : dff_1178/i8
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (368)" removed instance : i22657
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (380)" representative instance : i28
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (593)" removed instance : RES[18]_2~FF_brt_90_brt_158
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (593)" representative instance : RES[20]_2~FF_brt_93_brt_164
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (593)" removed instance : RES[23]_2~FF_brt_45_brt_101
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (593)" representative instance : RES[4]_2~FF_brt_125
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (593)" removed instance : RES[3]_2~FF_brt_122
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (593)" representative instance : RES[4]_2~FF_brt_125
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (593)" removed instance : RES[22]_2~FF_brt_40
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (593)" representative instance : RES[20]_2~FF_brt_93_brt_164
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (593)" removed instance : RES[9]_2~FF_brt_2
+@ "C:\Efinity\2022.1\project\New_RiscV\RISC_V_core.vhd (593)" representative instance : RES[4]_2~FF_brt_125
+FF Output: PC_WRITE(=0)
+### ### Sequential Elements Trimming Report (end) ### ### ### 
+
+### ### Module Resource Usage Distribution Estimates (begin) ### ###
+
+**Note: some resources maybe grouped under different hierarchy due to optimization and LUT mapping
+
+Module                            FFs        ADDs        LUTs      RAMs DSP/MULTs
+-------------------------         ---        ----        ----      ---- ---------
+RISC_V_Core:RISC_V_Core    1385(1385)    136(136)  4026(4026)    22(22)      0(0)
+
+### ### Module Resource Usage Distribution Estimates (end) ### ###
+
+### ### Clock Load Distribution Report (begin) ### ###
+
+ Clock     Flip-Flops   Memory Ports    Multipliers
+ -----     ----------   ------------    -----------
+   CLK           1385             29              0
+
+### ### Clock Load Distribution Report (end) ### ###
+
+### ### EFX Flow Options (begin) ### ### ###
+
+family : Trion
+device : T8F81
+project : New_RiscV
+project-xml : C:/Efinity/2022.1/project/New_RiscV/New_RiscV.xml
+root : RISC_V_Core
+I : C:/Efinity/2022.1/project/New_RiscV
+output-dir : C:/Efinity/2022.1/project/New_RiscV/outflow
+work-dir : C:/Efinity/2022.1/project/New_RiscV/work_syn
+write-efx-verilog : C:/Efinity/2022.1/project/New_RiscV/outflow/New_RiscV.map.v
+binary-db : C:/Efinity/2022.1/project/New_RiscV/New_RiscV.vdb
+insert-ios : 0
+max-carry-cascade : 160
+max_mult : -1
+max_ram : -1
+mode : speed
+veri_options : verilog_mode=verilog_2k,vhdl_mode=vhdl_2008
+
+### ### EFX Flow Options (end) ### ### ###
+
+### ### Resource Summary (begin) ### ### ### 
+INPUT  PORTS    : 	2
+OUTPUT PORTS    : 	64
+
+EFX_ADD         : 	136
+EFX_LUT4        : 	4026
+   1-2  Inputs  : 	193
+   3    Inputs  : 	919
+   4    Inputs  : 	2914
+EFX_FF          : 	1385
+EFX_RAM_5K      : 	22
+EFX_GBUFCE      : 	1
+### ### Resource Summary (end) ### ### ###
+
+Plain synthesis (without verilog dump and post-map checks) time : 31s
+Elapsed synthesis time : 31s
