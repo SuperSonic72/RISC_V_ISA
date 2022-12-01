@@ -269,7 +269,7 @@ X"00100680",X"00C62001",X"10180000",X"00000001",X"1C0A0102",X"00003814",X"CC0220
 		  else return( "000000000000000000000" & a(30 downto 20));
 		  end if;
         end function SIGN_EXTENDED_I;
---
+-- 
       function SIGN_EXTENDED_J(a: in STD_LOGIC_VECTOR ) return STD_LOGIC_VECTOR is
         begin
 	      if (a(31) = '1') then return( "1111111111111" & a(19 downto 12)& a(20)& a(30 downto 21));
